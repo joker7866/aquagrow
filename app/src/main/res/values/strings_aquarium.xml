@@ -1,0 +1,263 @@
+<resources>
+    <!-- Aquarium screen -->
+    <string name="aquarium_title">My Aquariums</string>
+    <string name="aquarium_add_short">Add</string>
+    <string name="aquarium_all_in_range">All readings in range</string>
+    <string name="aquarium_next_feeding">Next feeding %1$s</string>
+    <string name="aquarium_tested_today">tested today</string>
+    <string name="aquarium_tested_yesterday">tested yesterday</string>
+    <plurals name="aquarium_tested_days_ago">
+        <item quantity="one">tested %1$d day ago</item>
+        <item quantity="other">tested %1$d days ago</item>
+    </plurals>
+    <string name="aquarium_overdue">%1$s overdue</string>
+    <string name="aquarium_metric_temp">Temp</string>
+    <string name="aquarium_metric_ph">pH</string>
+    <string name="aquarium_metric_fish">Fish</string>
+    <string name="aquarium_heated">heated</string>
+    <string name="aquarium_fish_in_tank">%1$d · %2$s</string>
+    <string name="aquarium_tool_feeding">Feeding</string>
+    <string name="aquarium_tool_water">Water test</string>
+    <string name="aquarium_tool_maintain">Maintain</string>
+    <string name="aquarium_tool_inventory">Inventory</string>
+    <string name="aquarium_fish_collection">Fish collection</string>
+    <string name="aquarium_add_tank">Add aquarium</string>
+    <string name="tank_default_name">Tank %1$d</string>
+    <string name="aquarium_tanks_label">Your tanks</string>
+    <string name="aquarium_all_tanks">All tanks (%1$d)</string>
+    <string name="aquarium_add_tank_chip">Add tank</string>
+    <string name="aquarium_fish_in_selected">Fish in %1$s</string>
+    <string name="aquarium_no_fish_in_tank">No fish in this tank yet.</string>
+    <string name="aquarium_add_fish">Add fish</string>
+    <string name="aquarium_empty_title">No aquariums yet</string>
+    <string name="aquarium_empty_body">Add your first tank to track fish, feeding, water tests and maintenance.</string>
+    <string name="aquarium_volume">%1$s L</string>
+    <plurals name="aquarium_fish_count">
+        <item quantity="one">%1$d fish</item>
+        <item quantity="other">%1$d fish</item>
+    </plurals>
+    <string name="tank_status_check">Outside your set range</string>
+    <string name="tank_status_no_test">No tests yet</string>
+    <string name="tank_status_no_ranges">Ranges not set</string>
+
+    <!-- Tank types -->
+    <string name="tank_type_community">Community</string>
+    <string name="tank_type_planted">Planted</string>
+    <string name="tank_type_species">Species only</string>
+    <string name="tank_type_breeding">Breeding</string>
+    <string name="tank_type_coldwater">Coldwater</string>
+    <string name="tank_type_other">Other</string>
+
+    <!-- Add / edit aquarium -->
+    <string name="add_tank_title">Add aquarium</string>
+    <string name="edit_tank_title">Edit aquarium</string>
+    <string name="add_tank_name">Tank name</string>
+    <string name="add_tank_name_hint">e.g. Living room tank</string>
+    <string name="add_tank_dimensions">Dimensions (cm)</string>
+    <string name="add_tank_length">Length</string>
+    <string name="add_tank_width">Width</string>
+    <string name="add_tank_height">Height</string>
+    <string name="add_tank_volume">Volume (litres)</string>
+    <string name="add_tank_volume_auto">Calculated from dimensions. Edit to override (e.g. for substrate and decor).</string>
+    <string name="add_tank_volume_manual">Entered by you</string>
+    <string name="add_tank_volume_reset">Use calculated value</string>
+    <string name="add_tank_setup_date">Set-up date</string>
+    <string name="add_tank_type">Tank type</string>
+    <string name="add_tank_filter">Filter</string>
+    <string name="add_tank_filter_hint">e.g. Hang-on-back, sponge, canister</string>
+    <string name="add_tank_heater">Heater</string>
+    <string name="add_tank_heater_hint">e.g. 100 W, none</string>
+    <string name="add_tank_lighting">Lighting</string>
+    <string name="add_tank_substrate">Substrate</string>
+    <string name="add_tank_live_plants">Live plants</string>
+    <string name="add_tank_live_plants_note">Which plants?</string>
+    <string name="add_tank_equipment">Other equipment</string>
+    <string name="add_tank_location">Location</string>
+    <string name="add_tank_save">Save aquarium</string>
+    <string name="error_tank_name">Give your tank a name.</string>
+    <string name="error_dimension">Enter a size in cm, or leave blank.</string>
+    <string name="error_volume">Enter litres greater than 0, or leave blank.</string>
+
+    <!-- Add / edit fish -->
+    <string name="add_fish_title">Add fish</string>
+    <string name="edit_fish_title">Edit fish</string>
+    <string name="add_fish_species">Species</string>
+    <string name="add_fish_custom_species">Species name</string>
+    <string name="add_fish_custom">Custom</string>
+    <string name="add_fish_nickname">Name (optional)</string>
+    <string name="add_fish_nickname_hint">e.g. Blue betta</string>
+    <string name="add_fish_tank">Tank</string>
+    <string name="add_fish_quantity">How many?</string>
+    <string name="add_fish_date">Date added</string>
+    <string name="add_fish_age">Age</string>
+    <string name="add_fish_age_hint">e.g. Juvenile, 6 months</string>
+    <string name="add_fish_size">Size (cm)</string>
+    <string name="add_fish_feeding">Feeding needs</string>
+    <string name="add_fish_compat_notes">Compatibility notes</string>
+    <string name="add_fish_health">Health observations</string>
+    <string name="add_fish_health_hint">What you notice: appetite, activity, appearance</string>
+    <string name="add_fish_care_notes">Care notes</string>
+    <string name="add_fish_save">Save fish</string>
+    <string name="add_fish_no_tank">Add an aquarium first, then add fish to it.</string>
+    <string name="error_species">Choose or enter a species.</string>
+    <string name="error_tank_required">Choose a tank.</string>
+    <string name="error_count">Enter at least 1.</string>
+    <string name="fish_reference">Reference info</string>
+    <string name="fish_reference_note">General guidance only; individual fish and local water vary.</string>
+    <string name="fish_temperament">Temperament</string>
+    <string name="fish_adult_size">Adult size</string>
+    <string name="fish_temp_range">Temperature</string>
+    <string name="fish_ph_range">pH</string>
+    <string name="fish_min_tank">Tank size</string>
+    <string name="fish_group">Group</string>
+    <string name="fish_diet">Diet</string>
+    <string name="fish_size_cm">about %1$s cm</string>
+    <string name="fish_min_liters">%1$d L or more</string>
+    <string name="fish_group_n">%1$d or more</string>
+    <string name="fish_group_alone">Fine alone</string>
+    <string name="temperament_peaceful">Peaceful</string>
+    <string name="temperament_semi">Semi-aggressive</string>
+    <string name="temperament_aggressive">Aggressive</string>
+
+    <!-- Compatibility (soft warnings) -->
+    <string name="compat_title">Things to consider</string>
+    <string name="compat_footer">These are general notes, not rules. Many keepers combine these fish successfully with enough space and care.</string>
+    <string name="compat_temperature">Preferred temperatures may not overlap%1$s.</string>
+    <string name="compat_ph">Preferred pH may not overlap%1$s.</string>
+    <string name="compat_tank_small">This tank may be small for this species as it grows.</string>
+    <string name="compat_temperament">May be too boisterous for smaller, calmer tankmates%1$s.</string>
+    <string name="compat_fin_nipping">Fin nipping is possible between active and long-finned fish%1$s.</string>
+    <string name="compat_same_males">Males of this species may fight each other.</string>
+    <string name="compat_labyrinth">Similar air-breathing fish may compete for territory%1$s.</string>
+    <string name="compat_cold">Coldwater and tropical fish prefer different temperatures%1$s.</string>
+    <string name="compat_eat_small">Larger fish may eat very small tankmates%1$s.</string>
+    <string name="compat_group">This species is usually happier in a larger group.</string>
+    <string name="compat_with">with %1$s</string>
+
+    <!-- Tank detail -->
+    <string name="tank_tab_overview">Overview</string>
+    <string name="tank_tab_fish">Fish</string>
+    <string name="tank_tab_water">Water</string>
+    <string name="tank_tab_equipment">Equipment</string>
+    <string name="tank_not_found">This aquarium no longer exists.</string>
+    <string name="tank_delete_title">Delete this aquarium?</string>
+    <string name="tank_delete_body">This removes the tank with its fish, logs, photos and reminders. This can\'t be undone.</string>
+    <string name="tank_archive_body">Archived tanks are hidden and stop sending reminders.</string>
+    <string name="tank_water_quality">Water quality</string>
+    <string name="tank_tested_on">Tested %1$s</string>
+    <string name="tank_set_up">set up %1$s</string>
+    <string name="tank_feeding_title">Feeding</string>
+    <string name="tank_chart_caption">Dashed line: your alert level (%1$s ppm). Reference ranges are editable and are not a diagnosis.</string>
+    <string name="tank_below_short">Below range</string>
+    <string name="tank_above_short">Above range</string>
+    <string name="tank_no_tests">No water tests yet. Log one to see your readings here.</string>
+    <string name="tank_log_water_test">Log water test</string>
+    <string name="tank_edit_ranges">Edit ranges</string>
+    <string name="tank_in_range">In range</string>
+    <string name="tank_no_range">No range set</string>
+    <string name="tank_alert_title">Outside your set range</string>
+    <string name="tank_alert_body">%1$s. This only compares readings to the ranges you set; it is not a diagnosis. Consider re-testing and checking your tank routine.</string>
+    <string name="tank_trend">%1$s trend</string>
+    <string name="tank_trend_alert">Your alert line: %1$s</string>
+    <string name="tank_trend_need_more">Log at least two tests to see a trend.</string>
+    <string name="tank_feeding_none">No feeding schedule yet.</string>
+    <string name="tank_maintenance">Maintenance</string>
+    <string name="tank_maintenance_none">No maintenance schedule yet.</string>
+    <string name="tank_add_schedule">Add schedule</string>
+    <string name="tank_log_feeding">Log feeding</string>
+    <string name="tank_log_maintenance">Log maintenance</string>
+    <string name="tank_fish_empty">No fish in this tank yet.</string>
+    <string name="tank_equipment_setup">Set-up</string>
+    <string name="tank_equipment_items">Equipment &amp; supplies</string>
+    <string name="tank_equipment_none">No equipment added.</string>
+    <string name="tank_add_equipment">Add equipment</string>
+    <string name="tank_history">History</string>
+    <string name="tank_last_done">Last done %1$s</string>
+    <string name="tank_never_done">Not done yet</string>
+
+    <!-- Parameters -->
+    <string name="param_temperature">Temp</string>
+    <string name="param_ph">pH</string>
+    <string name="param_ammonia">Ammonia</string>
+    <string name="param_nitrite">Nitrite</string>
+    <string name="param_nitrate">Nitrate</string>
+    <string name="param_gh">GH</string>
+    <string name="param_kh">KH</string>
+    <string name="unit_c">°C</string>
+    <string name="unit_ppm">ppm</string>
+    <string name="unit_dgh">°dH</string>
+
+    <!-- Water test sheet -->
+    <string name="water_sheet_title">Log water test</string>
+    <string name="water_sheet_help">Fill in what you measured. Leave the rest blank.</string>
+    <string name="water_sheet_need_one">Enter at least one reading.</string>
+    <string name="water_sheet_invalid">Check the highlighted values.</string>
+
+    <!-- Ranges sheet -->
+    <string name="ranges_title">Reference ranges</string>
+    <string name="ranges_help">Your own target ranges for this tank. Readings outside them are flagged; nothing else is inferred.</string>
+    <string name="ranges_min">Min</string>
+    <string name="ranges_max">Max</string>
+    <string name="ranges_alert_max">Alert above</string>
+    <string name="ranges_from_species">Use ranges from my fish</string>
+    <string name="ranges_from_species_none">Add catalog fish to suggest temperature and pH, or their ranges don\'t overlap.</string>
+    <string name="ranges_general">Use general reference for ammonia, nitrite, nitrate</string>
+
+    <!-- Feeding -->
+    <string name="feeding_title">Feeding</string>
+    <string name="feeding_sheet_title">Feeding schedule</string>
+    <string name="feeding_for">For</string>
+    <string name="feeding_whole_tank">Whole tank</string>
+    <string name="feeding_food">Food</string>
+    <string name="feeding_food_hint">e.g. Micro pellets</string>
+    <string name="feeding_portion">Portion guidance</string>
+    <string name="feeding_portion_hint">Your own note, e.g. a small pinch</string>
+    <string name="feeding_portion_help">A common guideline is to feed only what fish finish in a couple of minutes. Adjust for your fish.</string>
+    <string name="feeding_times">Feeding times</string>
+    <string name="feeding_add_time">Add time</string>
+    <string name="feeding_remove_time">Remove %1$s</string>
+    <string name="feeding_need_time">Add at least one time.</string>
+    <string name="feeding_remove_schedule">Remove this schedule</string>
+    <string name="feeding_today">Today\'s feedings</string>
+    <string name="feeding_none_today">No feedings scheduled today.</string>
+    <string name="feeding_history">Recent feedings</string>
+    <string name="feeding_history_none">No feedings logged yet.</string>
+    <string name="feeding_skipped">Skipped</string>
+    <string name="feeding_fed">Fed</string>
+    <string name="feeding_log_sheet">Log feeding</string>
+    <string name="feeding_amount">Amount</string>
+    <string name="feeding_choose_tank">Choose a tank</string>
+
+    <!-- Maintenance -->
+    <string name="maint_title">Maintenance</string>
+    <string name="maint_water_change">Water change</string>
+    <string name="maint_filter_inspection">Filter inspection</string>
+    <string name="maint_filter_maintenance">Filter maintenance</string>
+    <string name="maint_glass">Glass cleaning</string>
+    <string name="maint_gravel">Gravel vacuum</string>
+    <string name="maint_equipment">Equipment check</string>
+    <string name="maint_plants">Plant trimming</string>
+    <string name="maint_other">Other</string>
+    <string name="maint_water_testing">Water testing</string>
+    <string name="maint_schedule_sheet">Maintenance schedule</string>
+    <string name="maint_what">Task</string>
+    <string name="maint_percent">Water changed (%)</string>
+    <string name="maint_log_sheet">Log maintenance</string>
+    <string name="maint_due">Due</string>
+
+    <!-- Equipment sheet -->
+    <string name="equipment_sheet_title">Add equipment</string>
+    <string name="equipment_name">Name</string>
+    <string name="equipment_name_hint">e.g. Sponge filter</string>
+    <string name="equipment_category">Type</string>
+    <string name="equipment_purchase">Purchase date</string>
+    <string name="equipment_notes">Notes</string>
+
+    <!-- Water tests tool -->
+    <string name="water_tests_title">Water tests</string>
+    <string name="water_tests_choose">Choose a tank to log a test.</string>
+    <plurals name="tank_nitrate_last">
+        <item quantity="one">Nitrate, last test (ppm)</item>
+        <item quantity="other">Nitrate, last %1$d tests (ppm)</item>
+    </plurals>
+</resources>

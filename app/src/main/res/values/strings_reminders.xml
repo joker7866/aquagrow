@@ -1,0 +1,63 @@
+<resources>
+    <!-- Channels -->
+    <string name="channel_watering">Watering</string>
+    <string name="channel_fertilizer">Fertilizer</string>
+    <string name="channel_sowing">Sowing</string>
+    <string name="channel_transplanting">Transplanting</string>
+    <string name="channel_harvest">Harvest</string>
+    <string name="channel_feeding">Feeding</string>
+    <string name="channel_water_change">Water change</string>
+    <string name="channel_testing">Water testing</string>
+    <string name="channel_filter">Filter care</string>
+    <string name="channel_general">Other tasks</string>
+    <string name="channel_missed">Missed reminders</string>
+    <string name="channel_inventory">Supplies</string>
+    <string name="channel_desc">Reminders for %1$s</string>
+
+    <!-- Notifications -->
+    <string name="notif_due_watering">Check the soil first. Water only if the top layer is dry.</string>
+    <string name="notif_due_generic">Due today</string>
+    <string name="notif_missed_title">Missed: %1$s</string>
+    <string name="notif_missed_text">This was due %1$s and hasn\'t been marked done.</string>
+    <string name="notif_action_done">Mark done</string>
+    <string name="notif_action_15">15 min</string>
+    <string name="notif_action_60">1 hour</string>
+    <string name="notif_action_tomorrow">Tomorrow</string>
+    <string name="notif_action_snooze">Snooze</string>
+    <string name="notif_low_stock_title">Running low: %1$s</string>
+    <string name="notif_low_stock_text">Stock is at or below the level you set.</string>
+    <string name="notif_expiry_title">Expiring soon: %1$s</string>
+    <string name="notif_expiry_text">This item expires within a week.</string>
+    <string name="notif_expired_text">This item has passed its expiry date.</string>
+
+    <!-- Permission -->
+    <string name="perm_title">Never miss a watering or feeding</string>
+    <string name="perm_body">AquaGrow can remind you when plants need checking, fish need feeding and tanks need maintenance. Reminders respect your quiet hours and you can switch any type off.</string>
+    <string name="perm_point_1">Gentle reminders at the time you choose</string>
+    <string name="perm_point_2">Nothing is sent anywhere: reminders are created on this phone</string>
+    <string name="perm_point_3">Mark done or snooze straight from the notification</string>
+    <string name="perm_allow">Allow reminders</string>
+    <string name="perm_later">Not now</string>
+    <string name="perm_denied_title">Reminders are off</string>
+    <string name="perm_denied_body">Notifications are blocked for AquaGrow. Your tasks still appear in the app; turn notifications on in system settings to get reminders.</string>
+
+    <!-- Reminder settings -->
+    <string name="reminders_title">Reminders</string>
+    <string name="reminders_enabled">Reminders</string>
+    <string name="reminders_enabled_body">Turn all task reminders on or off</string>
+    <string name="reminders_default_time">Default reminder time</string>
+    <string name="reminders_default_time_body">Used for tasks without their own time</string>
+    <string name="reminders_quiet">Quiet hours</string>
+    <string name="reminders_quiet_body">Reminders that fall in quiet hours are delayed until they end, never dropped.</string>
+    <string name="reminders_quiet_from">From</string>
+    <string name="reminders_quiet_to">To</string>
+    <string name="reminders_types">Reminder types</string>
+    <string name="reminders_missed">Missed watering &amp; feeding</string>
+    <string name="reminders_missed_body">A follow-up when a watering or feeding was not marked done</string>
+    <string name="reminders_inventory">Low stock &amp; expiry</string>
+    <string name="reminders_inventory_body">When supplies run low or are about to expire</string>
+    <string name="reminders_timing_note">AquaGrow uses Android\'s battery-friendly scheduler. When the phone is saving battery, a reminder can arrive a few minutes late. It is never skipped.</string>
+    <string name="reminders_history">Reminder history</string>
+    <string name="reminders_history_empty">No reminders yet. Reminders you receive will be listed here.</string>
+    <string name="reminders_history_clear">Clear history</string>
+</resources>

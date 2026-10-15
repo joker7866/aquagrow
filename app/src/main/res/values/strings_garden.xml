@@ -1,0 +1,271 @@
+<resources>
+    <!-- Garden screen -->
+    <string name="garden_title">My Garden</string>
+    <string name="garden_search_hint">Search plants</string>
+    <string name="garden_search_clear">Clear search</string>
+    <plurals name="garden_alert_title">
+        <item quantity="one">%1$d plant may need water today</item>
+        <item quantity="other">%1$d plants may need water today</item>
+    </plurals>
+    <string name="garden_alert_body">Touch the soil first. Water only if the top 2–3 cm is dry.</string>
+    <string name="garden_tool_watering">Watering</string>
+    <string name="garden_tool_fertilizer">Fertilizer</string>
+    <string name="garden_tool_planner">Planner</string>
+    <string name="garden_tool_inventory">Inventory</string>
+    <string name="garden_filter_all">All</string>
+    <string name="garden_add_plant">Add plant</string>
+    <string name="garden_empty_title">No plants yet</string>
+    <string name="garden_empty_body">Add your first plant to start tracking watering, growth and harvests.</string>
+    <string name="garden_no_results">No plants match your search.</string>
+    <string name="garden_day_n">Day %1$d</string>
+    <string name="garden_water_label">Water</string>
+
+    <!-- Categories -->
+    <string name="category_vegetable">Vegetables</string>
+    <string name="category_leafy_green">Leafy greens</string>
+    <string name="category_herb">Herbs</string>
+    <string name="category_flower">Flowers</string>
+    <string name="category_fruit">Fruits</string>
+    <string name="category_succulent">Succulents</string>
+    <string name="category_other">Other</string>
+
+    <!-- Sunlight / method / condition / moisture -->
+    <string name="sun_full">Full sun</string>
+    <string name="sun_partial">Partial</string>
+    <string name="sun_shade">Shade</string>
+    <string name="method_seed">Seed</string>
+    <string name="method_seedling">Seedling</string>
+    <string name="method_cutting">Cutting</string>
+    <string name="method_tuber">Tuber / bulb</string>
+    <string name="method_sapling">Sapling</string>
+    <string name="condition_thriving">Thriving</string>
+    <string name="condition_good">Good</string>
+    <string name="condition_needs_attention">Needs attention</string>
+    <string name="condition_struggling">Struggling</string>
+    <string name="moisture_dry">Dry</string>
+    <string name="moisture_moist">Moist</string>
+    <string name="moisture_wet">Wet</string>
+
+    <!-- Fertilizer types / methods -->
+    <string name="fert_compost">Compost</string>
+    <string name="fert_vermicompost">Vermicompost</string>
+    <string name="fert_organic">Organic</string>
+    <string name="fert_npk">NPK</string>
+    <string name="fert_liquid">Liquid</string>
+    <string name="fert_seaweed">Seaweed</string>
+    <string name="fert_custom">Custom</string>
+    <string name="fert_method_mixed">Mixed into soil</string>
+    <string name="fert_method_top">Top dressing</string>
+    <string name="fert_method_drench">Soil drench</string>
+    <string name="fert_method_foliar">Foliar spray</string>
+    <string name="fert_method_other">Other</string>
+
+    <!-- Add / edit plant -->
+    <string name="add_plant_title">Add plant</string>
+    <string name="edit_plant_title">Edit plant</string>
+    <string name="add_plant_catalog">Pick from catalog</string>
+    <string name="add_plant_photo_prompt">Take or choose a photo</string>
+    <string name="add_plant_every">Every</string>
+    <string name="add_plant_days">days</string>
+    <string name="add_plant_other_schedules">Other schedules</string>
+    <string name="add_plant_more_details_hint">More details (soil mix, seed &amp; germination, fertilizer, stages)</string>
+    <string name="add_plant_notes_optional">Notes (optional)</string>
+    <string name="add_plant_notes_hint">Soil mix, seed source, anything to remember</string>
+    <string name="add_plant_more_plants">More…</string>
+    <string name="add_plant_custom">+ Custom</string>
+    <string name="add_plant_catalog_sheet_title">Choose a plant</string>
+    <string name="add_plant_name">Plant name</string>
+    <string name="add_plant_variety">Variety</string>
+    <string name="add_plant_variety_hint">e.g. Cherry</string>
+    <string name="add_plant_category">Category</string>
+    <string name="add_plant_planting_date">Planting date</string>
+    <string name="add_plant_sowing_date">Sowing date</string>
+    <string name="add_plant_method">How it was started</string>
+    <string name="add_plant_pot_size">Pot / grow bag</string>
+    <string name="add_plant_pot_size_hint">e.g. 15 inch</string>
+    <string name="add_plant_soil_mix">Soil mix</string>
+    <string name="add_plant_soil_mix_hint">e.g. Garden soil, cocopeat, compost</string>
+    <string name="add_plant_location">Terrace spot</string>
+    <string name="add_plant_location_hint">e.g. East corner</string>
+    <string name="add_plant_sunlight">Sunlight</string>
+    <string name="add_plant_watering">Watering reminder</string>
+    <string name="add_plant_watering_help">Reminders will ask you to check soil moisture first, so you can skip a day when it\'s still wet.</string>
+    <string name="add_plant_fertilizer">Fertilizer reminder</string>
+    <string name="add_plant_fertilizer_help">Amounts depend on the product. Follow its label; AquaGrow never suggests quantities.</string>
+    <string name="add_plant_fertilizer_type">Fertilizer type</string>
+    <string name="add_plant_fertilizer_product">Product name</string>
+    <string name="add_plant_fertilizer_amount">Amount (from the label)</string>
+    <string name="add_plant_stage">Current stage</string>
+    <string name="add_plant_stages">Growth stages</string>
+    <string name="add_plant_stages_help">Rename, add or remove stages to match how you track this plant.</string>
+    <string name="add_plant_stage_add">Add stage</string>
+    <string name="add_plant_stage_name">Stage %1$d</string>
+    <string name="add_plant_stage_remove">Remove stage %1$s</string>
+    <string name="add_plant_condition">Condition</string>
+    <string name="add_plant_harvest">Days to harvest (rough estimate)</string>
+    <string name="add_plant_harvest_min">From</string>
+    <string name="add_plant_harvest_max">To</string>
+    <string name="add_plant_harvest_help">Used only to show an estimated window. Real timing varies.</string>
+    <string name="add_plant_notes">Notes</string>
+    <string name="error_name_required">Give your plant a name.</string>
+    <string name="error_name_too_long">Keep the name under 60 characters.</string>
+    <string name="error_planting_future">Planting date can\'t be in the future.</string>
+    <string name="error_sowing_after">Sowing date should be on or before the planting date.</string>
+    <string name="error_harvest_range">Enter a valid range, e.g. 60 to 90.</string>
+    <string name="error_stages_empty">Add at least one stage.</string>
+
+    <!-- Plant detail -->
+    <string name="plant_edit_stages">Edit stages</string>
+    <plurals name="plant_harvest_about">
+        <item quantity="one">Harvest in about %1$d day</item>
+        <item quantity="other">Harvest in about %1$d days</item>
+    </plurals>
+    <plurals name="plant_flowers_about">
+        <item quantity="one">First flowers in about %1$d day</item>
+        <item quantity="other">First flowers in about %1$d days</item>
+    </plurals>
+    <plurals name="plant_picking_about">
+        <item quantity="one">First picking in about %1$d day</item>
+        <item quantity="other">First picking in about %1$d days</item>
+    </plurals>
+    <string name="plant_harvest_now">Within the estimated harvest window</string>
+    <string name="plant_estimate_note">Estimate based on variety and planting date. Weather can change it.</string>
+    <string name="plant_info_container">Container</string>
+    <string name="plant_next">Next: %1$s</string>
+    <string name="plant_next_today">today</string>
+    <string name="plant_last_watered">last watered %1$s</string>
+    <string name="plant_last_on">last on %1$s</string>
+    <string name="plant_watering_label">Watering</string>
+    <string name="plant_fertilizer_label">Fertilizer</string>
+    <string name="plant_tab_overview">Overview</string>
+    <string name="plant_tab_timeline">Timeline</string>
+    <string name="plant_tab_photos">Photos</string>
+    <string name="plant_tab_harvest">Harvest</string>
+    <string name="plant_add_photo">Add photo</string>
+    <string name="plant_menu_edit">Edit</string>
+    <string name="plant_menu_archive">Archive</string>
+    <string name="plant_menu_delete">Delete</string>
+    <string name="plant_delete_title">Delete this plant?</string>
+    <string name="plant_delete_body">This removes the plant with all its logs, photos and reminders. This can\'t be undone.</string>
+    <string name="plant_archive_body">Archived plants are hidden and stop sending reminders.</string>
+    <string name="plant_not_found">This plant no longer exists.</string>
+    <string name="plant_growth_stage">Growth stage</string>
+    <string name="plant_stage_estimate_note">Stages are a guide. Tap a stage to update it.</string>
+    <string name="plant_stage_set">Set stage to %1$s</string>
+    <string name="plant_harvest_estimate">Estimated harvest</string>
+    <string name="plant_flowering_estimate">Estimated first flowers</string>
+    <string name="plant_leaves_estimate">Estimated first picking</string>
+    <string name="plant_harvest_window">%1$s – %2$s</string>
+    <plurals name="plant_harvest_in_days">
+        <item quantity="one">Window opens in about %1$d day</item>
+        <item quantity="other">Window opens in about %1$d days</item>
+    </plurals>
+    <string name="plant_harvest_in_window">Within the estimated window now</string>
+    <string name="plant_harvest_past">Past the estimated window; your plant may simply need more time.</string>
+    <string name="plant_harvest_disclaimer">This is an estimate based on typical growing times. Variety, weather, pot size and care all change it.</string>
+    <string name="plant_info_planted">Planted</string>
+    <string name="plant_info_sown">Sown</string>
+    <string name="plant_info_soil">Soil</string>
+    <string name="plant_info_location">Location</string>
+    <string name="plant_info_sunlight">Sunlight</string>
+    <string name="plant_info_method">Started from</string>
+    <string name="plant_care_schedule">Care schedule</string>
+    <string name="plant_care_none">No reminders set. Edit the plant to add a watering or fertilizer reminder.</string>
+    <string name="plant_notes">Notes</string>
+    <string name="plant_care_tips">Care tips</string>
+    <string name="plant_add_growth_log">Add growth log</string>
+    <string name="plant_record_watering">Record watering</string>
+    <string name="plant_log_fertilizer">Log fertilizer</string>
+    <string name="plant_log_harvest">Log harvest</string>
+    <string name="plant_timeline_empty">Nothing logged yet. Watering, growth logs, fertilizer and harvests will appear here.</string>
+    <string name="plant_photos_empty">No photos yet. Add one to watch your plant grow.</string>
+    <string name="plant_photos_compare">Compare</string>
+    <string name="plant_photos_compare_hint">Select two photos to compare.</string>
+    <string name="plant_photos_delete">Delete photo</string>
+    <string name="plant_harvest_empty">No harvests yet.</string>
+    <string name="plant_harvest_total">Total harvested</string>
+    <string name="timeline_watered">Watered</string>
+    <string name="timeline_not_watered">Checked soil, didn\'t water</string>
+    <string name="timeline_stage">Stage: %1$s</string>
+    <string name="timeline_growth">Growth log</string>
+    <string name="timeline_height">%1$s cm tall</string>
+    <string name="timeline_fertilized">Fertilized · %1$s</string>
+    <string name="timeline_harvested">Harvested %1$s %2$s</string>
+    <string name="timeline_soil">Soil: %1$s</string>
+
+    <!-- Sheets -->
+    <string name="watering_sheet_title">Record watering</string>
+    <string name="watering_sheet_soil">How did the soil feel?</string>
+    <string name="watering_sheet_watered">Watered</string>
+    <string name="watering_sheet_skipped">Didn\'t water</string>
+    <string name="watering_sheet_amount">Amount (ml)</string>
+    <string name="watering_sheet_wet_hint">Soil is still wet: skipping this time is often best.</string>
+    <string name="growth_sheet_title">Add growth log</string>
+    <string name="growth_sheet_height">Height (cm)</string>
+    <string name="growth_sheet_note">What did you notice?</string>
+    <string name="fert_sheet_title">Log fertilizer</string>
+    <string name="fert_sheet_quantity">Quantity</string>
+    <string name="fert_sheet_unit">Unit</string>
+    <string name="fert_sheet_unit_hint">g, ml, cup…</string>
+    <string name="fert_sheet_method">Method</string>
+    <string name="fert_sheet_next">Remind me next time</string>
+    <string name="fert_sheet_plant">Plant</string>
+    <string name="harvest_sheet_title">Log harvest</string>
+    <string name="harvest_sheet_quantity">Quantity</string>
+    <string name="harvest_sheet_unit">Unit</string>
+    <string name="harvest_sheet_date">Harvest date</string>
+    <string name="error_number">Enter a number.</string>
+    <string name="error_positive">Enter a number greater than 0.</string>
+
+    <!-- Watering tool -->
+    <string name="watering_title">Watering</string>
+    <string name="watering_check_soil">Always check the soil first. Push a finger 2–3 cm in; water only if it feels dry.</string>
+    <string name="watering_overdue">Overdue</string>
+    <string name="watering_today">Today</string>
+    <string name="watering_upcoming">Next 7 days</string>
+    <string name="watering_history">Recent history</string>
+    <string name="watering_none_due">No watering due. Plants with a watering reminder will show here.</string>
+    <string name="watering_no_history">No watering logged yet.</string>
+    <string name="watering_log_any">Log watering</string>
+    <string name="watering_choose_plant">Choose a plant</string>
+    <string name="watering_move">Move</string>
+
+    <!-- Fertilizer tool -->
+    <string name="fertilizer_title">Fertilizer</string>
+    <string name="fertilizer_upcoming">Upcoming</string>
+    <string name="fertilizer_history">History</string>
+    <string name="fertilizer_none">No fertilizer logged yet.</string>
+    <string name="fertilizer_none_upcoming">No fertilizer reminders.</string>
+    <string name="fertilizer_label_note">AquaGrow never suggests fertilizer amounts. Follow the product label.</string>
+
+    <!-- Planner -->
+    <string name="planner_title">Seasonal planner</string>
+    <string name="planner_intro">Typical sowing windows for India. Timing varies by region and climate: edit any entry to match your area.</string>
+    <string name="planner_now">Good to sow this month</string>
+    <string name="planner_now_none">Nothing in the guide for this month.</string>
+    <string name="season_kharif">Kharif (monsoon)</string>
+    <string name="season_rabi">Rabi (winter)</string>
+    <string name="season_zaid">Zaid (summer)</string>
+    <string name="season_kharif_short">Kharif</string>
+    <string name="season_rabi_short">Rabi</string>
+    <string name="season_zaid_short">Zaid</string>
+    <string name="planner_window">%1$s – %2$s</string>
+    <string name="planner_edited">Edited</string>
+    <string name="planner_remind">Remind me to sow</string>
+    <string name="planner_reminded">Reminder added for %1$s</string>
+    <string name="planner_add">Add entry</string>
+    <string name="planner_edit">Edit entry</string>
+    <string name="planner_plant_name">Plant</string>
+    <string name="planner_season">Season</string>
+    <string name="planner_start_month">From month</string>
+    <string name="planner_end_month">To month</string>
+    <string name="planner_notes">Notes</string>
+    <plurals name="plant_photos_compare_days">
+        <item quantity="one">%1$d day apart</item>
+        <item quantity="other">%1$d days apart</item>
+    </plurals>
+    <plurals name="add_plant_days_unit">
+        <item quantity="one">day</item>
+        <item quantity="other">days</item>
+    </plurals>
+</resources>

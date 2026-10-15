@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="assistant_garden_title">Garden assistant</string>
+    <string name="assistant_aquarium_title">Aquarium assistant</string>
+    <string name="assistant_ask_menu">Ask the assistant</string>
+    <string name="assistant_disclaimer">This is a possible observation, not a confirmed diagnosis.</string>
+    <string name="assistant_intro_garden">Ask about watering, feeding, pests or what to sow. Answers are general suggestions; check your own plants and local conditions.</string>
+    <string name="assistant_intro_aquarium">Ask about water quality, feeding, tank mates or maintenance. It cannot diagnose fish illness; for sick fish, ask an aquatic vet.</string>
+    <string name="assistant_try_asking">Try asking</string>
+
+    <string name="assistant_starter_garden_1">Why are my tomato leaves turning yellow?</string>
+    <string name="assistant_starter_garden_2">How do I know when my chilli plant needs water?</string>
+    <string name="assistant_starter_garden_3">How can I keep pests off my terrace garden naturally?</string>
+    <string name="assistant_starter_garden_4">What could I sow this month in pots?</string>
+    <string name="assistant_starter_aquarium_1">Why is my aquarium water cloudy?</string>
+    <string name="assistant_starter_aquarium_2">How much water should I change each week?</string>
+    <string name="assistant_starter_aquarium_3">Which fish suit a beginner 60 litre tank?</string>
+    <string name="assistant_starter_aquarium_4">My fish are gasping at the surface. What should I check?</string>
+
+    <string name="assistant_input_label">Your question</string>
+    <string name="assistant_send">Send</string>
+    <string name="assistant_attach_photo">Attach a photo</string>
+    <string name="assistant_remove_photo">Remove photo</string>
+    <string name="assistant_photo_attached">Photo attached</string>
+    <string name="assistant_thinking">Thinking…</string>
+    <string name="assistant_name">Assistant</string>
+    <string name="assistant_answer_cut">The answer was cut short. Ask a follow-up to continue.</string>
+
+    <string name="assistant_context_title">Share details (optional)</string>
+    <string name="assistant_context_none">Don\'t share</string>
+    <string name="assistant_context_logs">Include recent logs</string>
+    <string name="assistant_context_logs_body_garden">Last waterings, feeding and notes for this plant</string>
+    <string name="assistant_context_logs_body_aquarium">Last water tests and maintenance for this tank</string>
+    <string name="assistant_context_hint">Only what you pick here is sent with your question.</string>
+
+    <string name="assistant_offline_title">You\'re offline</string>
+    <string name="assistant_offline_body">The assistant needs internet. Here are general care tips from AquaGrow instead:</string>
+    <string name="assistant_rate_limited">Lots of questions right now. You can try again in %1$d s.</string>
+    <string name="assistant_rate_limited_ready">You can try again now.</string>
+    <string name="assistant_failed">Couldn\'t reach the assistant. Check your connection and try again.</string>
+    <string name="assistant_failed_permanent">The assistant couldn\'t answer that question. Try rephrasing it or removing the photo.</string>
+    <string name="assistant_declined">The assistant can\'t help with that question. Try asking about your plants or tank.</string>
+    <string name="assistant_retry">Try again</string>
+    <string name="assistant_disabled_title">The assistant is off</string>
+    <string name="assistant_disabled_body">It is optional and needs internet. You can turn it on in Profile, where you can also see what is sent.</string>
+    <string name="assistant_open_profile">Open Profile</string>
+    <string name="assistant_not_configured_title">Assistant not set up</string>
+    <string name="assistant_not_configured_body">This copy of AquaGrow has no assistant server configured. Everything else works offline as usual.</string>
+    <string name="assistant_privacy_note">Chats are not saved. Leaving this screen clears them.</string>
+</resources>

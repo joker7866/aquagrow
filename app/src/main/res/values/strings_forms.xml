@@ -1,0 +1,83 @@
+<resources>
+    <!-- Generic form pieces -->
+    <string name="form_more_details">More details</string>
+    <string name="form_fewer_details">Fewer details</string>
+    <string name="form_clear">Clear</string>
+    <string name="form_not_set">Not set</string>
+    <string name="form_increase">Increase %1$s</string>
+    <string name="form_decrease">Decrease %1$s</string>
+    <string name="form_fix_errors">Please fix the highlighted fields.</string>
+    <string name="form_discard_title">Discard changes?</string>
+    <string name="form_discard_body">Your changes won\'t be saved.</string>
+    <string name="form_discard">Discard</string>
+
+    <!-- Photo field -->
+    <string name="photo_change">Change photo</string>
+    <string name="photo_take">Take photo</string>
+    <string name="photo_choose">Choose from gallery</string>
+    <string name="photo_remove">Remove photo</string>
+    <string name="photo_import_failed">Couldn\'t use that photo. Try another one.</string>
+    <string name="photo_content_description">Photo of %1$s</string>
+
+    <!-- Camera -->
+    <string name="camera_capture">Capture</string>
+    <string name="camera_switch">Switch camera</string>
+    <string name="camera_permission_title">Camera access</string>
+    <string name="camera_permission_body">AquaGrow uses the camera only to take photos of your plants and fish. Photos stay on this device.</string>
+    <string name="camera_permission_grant">Allow camera</string>
+    <string name="camera_permission_denied">Camera permission was denied. You can still choose photos from your gallery, or allow the camera in system settings.</string>
+    <string name="camera_open_settings">Open settings</string>
+    <string name="camera_failed">Couldn\'t take the photo. Please try again.</string>
+
+    <!-- Schedule editor -->
+    <string name="schedule_once">Once</string>
+    <string name="schedule_daily">Daily</string>
+    <string name="schedule_every_n_days">Every N days</string>
+    <string name="schedule_weekly">Weekly</string>
+    <string name="schedule_every_n_weeks">Every N weeks</string>
+    <string name="schedule_monthly">Monthly</string>
+    <string name="schedule_interval_days">Every how many days?</string>
+    <string name="schedule_interval_weeks">Every how many weeks?</string>
+    <string name="schedule_interval_months">Every how many months?</string>
+    <string name="schedule_choose">Choose</string>
+    <string name="schedule_days">On these days</string>
+    <string name="schedule_start">Starting</string>
+    <string name="schedule_time">Reminder time</string>
+    <string name="schedule_time_default">Default time</string>
+    <string name="schedule_error_interval">Choose how often, or turn this reminder off.</string>
+    <string name="schedule_error_range">Choose between 1 and 90.</string>
+    <string name="schedule_error_days">Pick at least one day.</string>
+    <plurals name="schedule_every_days">
+        <item quantity="one">Every day</item>
+        <item quantity="other">Every %1$d days</item>
+    </plurals>
+    <plurals name="schedule_every_weeks">
+        <item quantity="one">Every week</item>
+        <item quantity="other">Every %1$d weeks</item>
+    </plurals>
+    <plurals name="schedule_every_months">
+        <item quantity="one">Every month</item>
+        <item quantity="other">Every %1$d months</item>
+    </plurals>
+    <string name="schedule_weekly_on">Weekly on %1$s</string>
+    <string name="schedule_every_weeks_on">%1$s on %2$s</string>
+    <string name="schedule_once_on">Once on %1$s</string>
+    <string name="schedule_at_time">%1$s at %2$s</string>
+
+    <!-- Due chips -->
+    <string name="due_today">%1$s today</string>
+    <string name="due_tomorrow">%1$s tomorrow</string>
+    <plurals name="due_in_days">
+        <item quantity="one">%1$s in %2$d day</item>
+        <item quantity="other">%1$s in %2$d days</item>
+    </plurals>
+    <plurals name="due_overdue_days">
+        <item quantity="one">%1$s overdue %2$d day</item>
+        <item quantity="other">%1$s overdue %2$d days</item>
+    </plurals>
+
+    <!-- Reschedule -->
+    <string name="reschedule_title">Move this task</string>
+    <string name="reschedule_tomorrow">Tomorrow</string>
+    <string name="reschedule_pick">Pick a date…</string>
+</resources>

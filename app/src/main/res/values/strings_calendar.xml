@@ -1,0 +1,50 @@
+<resources>
+    <string name="calendar_title">Calendar</string>
+    <string name="calendar_add">Add task</string>
+    <string name="calendar_day">Day</string>
+    <string name="calendar_week">Week</string>
+    <string name="calendar_month">Month</string>
+    <string name="calendar_both">Both</string>
+    <string name="calendar_garden">Garden</string>
+    <string name="calendar_aquarium">Aquarium</string>
+    <string name="calendar_prev">Previous</string>
+    <string name="calendar_next">Next</string>
+    <string name="calendar_overdue">Overdue</string>
+    <string name="calendar_due_yesterday">due yesterday</string>
+    <plurals name="calendar_due_days_ago">
+        <item quantity="one">due %1$d day ago</item>
+        <item quantity="other">due %1$d days ago</item>
+    </plurals>
+    <string name="calendar_nothing">Nothing scheduled for this day.</string>
+    <string name="calendar_done">Done</string>
+    <string name="calendar_completed">Completed</string>
+    <string name="calendar_today">Today</string>
+    <string name="calendar_mark_done">Mark done</string>
+    <string name="calendar_mark_not_done">Mark not done</string>
+    <string name="calendar_skip">Skip this time</string>
+    <string name="calendar_move">Move to another day</string>
+    <string name="calendar_edit_task">Edit task</string>
+    <string name="calendar_open_plant">Open plant</string>
+    <string name="calendar_open_tank">Open tank</string>
+
+    <!-- Task editor -->
+    <string name="task_new_title">New task</string>
+    <string name="task_edit_title">Edit task</string>
+    <string name="task_field_title">What needs doing?</string>
+    <string name="task_field_title_hint">e.g. Prune roses, Rinse filter sponge</string>
+    <string name="task_field_module">For</string>
+    <string name="task_field_type">Type</string>
+    <string name="task_field_link">Linked to (optional)</string>
+    <string name="task_field_none">Nothing</string>
+    <string name="task_field_repeat">Repeat</string>
+    <string name="task_field_end">Ends on (optional)</string>
+    <string name="task_field_notes">Notes</string>
+    <string name="task_delete">Delete task</string>
+    <string name="task_delete_body">This removes the task and its upcoming reminders. Past history is kept in your logs.</string>
+    <string name="error_task_title">Describe the task.</string>
+    <string name="error_task_end">End date must be after the start.</string>
+    <plurals name="calendar_day_tasks">
+        <item quantity="one">%1$s, %2$d task</item>
+        <item quantity="other">%1$s, %2$d tasks</item>
+    </plurals>
+</resources>

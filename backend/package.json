@@ -1,0 +1,19 @@
+{
+  "name": "aquagrow-assistant-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal proxy between the AquaGrow app and the Claude API. Holds the API key server-side.",
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.132.1",
+    "express": "^5.2.1"
+  }
+}

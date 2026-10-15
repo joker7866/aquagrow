@@ -1,0 +1,157 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Inventory & expenses -->
+    <string name="inventory_title">Inventory &amp; expenses</string>
+    <string name="inventory_tab_items">Inventory</string>
+    <string name="inventory_tab_expenses">Expenses</string>
+    <string name="inventory_all">All</string>
+    <string name="inventory_empty">No items yet. Add seeds, pots, fertilizer, fish food, test kits and more.</string>
+    <string name="inventory_add">Add item</string>
+    <string name="inventory_edit">Edit item</string>
+    <string name="inventory_low">Low stock</string>
+    <string name="inventory_expiring">Expires %1$s</string>
+    <string name="inventory_expired">Expired</string>
+    <string name="inventory_in_tank">In %1$s</string>
+    <string name="inventory_name">Name</string>
+    <string name="inventory_module">For</string>
+    <string name="inventory_category">Category</string>
+    <string name="inventory_quantity">Quantity</string>
+    <string name="inventory_unit">Unit</string>
+    <string name="inventory_unit_hint">pcs, g, ml, bags…</string>
+    <string name="inventory_low_threshold">Remind me at or below</string>
+    <string name="inventory_purchase_date">Purchase date</string>
+    <string name="inventory_cost">Cost (%1$s)</string>
+    <string name="inventory_cost_help">Adding a cost also records it as an expense.</string>
+    <string name="inventory_expiry">Expiry date</string>
+    <string name="inventory_notes">Notes</string>
+    <string name="inventory_increase">Increase %1$s</string>
+    <string name="inventory_decrease">Decrease %1$s</string>
+    <string name="inventory_delete">Delete item</string>
+    <string name="error_name">Enter a name.</string>
+    <string name="error_amount">Enter a valid amount.</string>
+
+    <string name="expenses_this_month">This month</string>
+    <string name="expenses_last_6">Last 6 months</string>
+    <string name="expenses_empty">No expenses yet.</string>
+    <string name="expenses_add">Add expense</string>
+    <string name="expenses_title_field">What was it?</string>
+    <string name="expenses_amount">Amount (%1$s)</string>
+    <string name="expenses_category">Category</string>
+    <string name="expenses_date">Date</string>
+    <string name="expenses_module">For</string>
+    <string name="expenses_shared">Both</string>
+    <string name="expenses_other_currency">Also recorded in other currencies: %1$s</string>
+    <string name="expense_cat_plants">Plants</string>
+    <string name="expense_cat_seeds">Seeds</string>
+    <string name="expense_cat_soil">Soil</string>
+    <string name="expense_cat_pots">Pots</string>
+    <string name="expense_cat_fertilizer">Fertilizer</string>
+    <string name="expense_cat_tools">Tools</string>
+    <string name="expense_cat_fish">Fish</string>
+    <string name="expense_cat_fish_food">Fish food</string>
+    <string name="expense_cat_water_care">Water care</string>
+    <string name="expense_cat_equipment">Equipment</string>
+    <string name="expense_cat_other">Other</string>
+
+    <!-- Analytics -->
+    <string name="analytics_title">Analytics</string>
+    <string name="analytics_overall">Overall</string>
+    <string name="analytics_garden">Garden</string>
+    <string name="analytics_aquarium">Aquarium</string>
+    <string name="analytics_weekly">Weekly task completion</string>
+    <string name="analytics_monthly_expenses">Monthly expenses</string>
+    <string name="analytics_upcoming">Next 7 days</string>
+    <string name="analytics_streak">Care streak</string>
+    <plurals name="analytics_streak_days">
+        <item quantity="one">%1$d day</item>
+        <item quantity="other">%1$d days</item>
+    </plurals>
+    <string name="analytics_streak_help">Days in a row when every due task was done or skipped.</string>
+    <string name="analytics_active_plants">Active plants</string>
+    <string name="analytics_watering">Watering completion (30 days)</string>
+    <string name="analytics_feeding">Feeding completion (30 days)</string>
+    <string name="analytics_maintenance">Maintenance completion (90 days)</string>
+    <string name="analytics_fertilizer">Fertilizer applications</string>
+    <string name="analytics_growth">Growth progress</string>
+    <string name="analytics_growth_help">Average position along each plant\'s own stages.</string>
+    <string name="analytics_harvest">Harvest totals</string>
+    <string name="analytics_conditions">Condition notes (last 90 days)</string>
+    <string name="analytics_population">Fish population</string>
+    <string name="analytics_water_trends">Water quality trends</string>
+    <string name="analytics_tank_history">Tank history</string>
+    <string name="analytics_tank_history_line">Water tests %1$d · Maintenance %2$d · Feedings %3$d</string>
+    <!-- "N of M done" is correct for every number. -->
+    <string name="analytics_done_of" tools:ignore="PluralsCandidate">%1$d of %2$d done</string>
+    <string name="analytics_by_type">%1$s: %2$d</string>
+    <string name="analytics_no_data">Not enough data yet. This fills in as you log care.</string>
+    <string name="analytics_percent">%1$d%%</string>
+
+    <!-- Gallery -->
+    <string name="gallery_title">Photos</string>
+    <string name="gallery_all">All</string>
+    <string name="gallery_plants">Plants</string>
+    <string name="gallery_fish">Fish</string>
+    <string name="gallery_tanks">Tanks</string>
+    <string name="gallery_empty">No photos yet.</string>
+
+    <!-- Search -->
+    <string name="search_title">Search</string>
+    <string name="search_hint">Search plants, fish, tanks, tasks and notes</string>
+    <string name="search_plants">Plants</string>
+    <string name="search_fish">Fish</string>
+    <string name="search_tanks">Tanks</string>
+    <string name="search_tasks">Tasks</string>
+    <string name="search_notes">Notes</string>
+    <string name="search_none">No matches for \"%1$s\".</string>
+    <string name="search_start">Type at least 2 characters.</string>
+
+    <!-- Backup -->
+    <string name="backup_title">Backup &amp; restore</string>
+    <string name="backup_export_title">Back up to a file</string>
+    <string name="backup_export_body">Saves all your plants, tanks, logs, tasks, inventory, expenses and settings as a JSON file you choose where to keep. Nothing is uploaded.</string>
+    <string name="backup_include_photos">Include photos (creates a .zip)</string>
+    <string name="backup_export_button">Choose where to save</string>
+    <string name="backup_export_done">Backup saved: %1$s</string>
+    <string name="backup_restore_title">Restore from a backup</string>
+    <string name="backup_restore_body">Pick a .json or .zip backup made by AquaGrow. It is checked before anything changes.</string>
+    <string name="backup_restore_button">Choose backup file</string>
+    <string name="backup_preview_title">Restore this backup?</string>
+    <string name="backup_preview_body">Made %1$s with AquaGrow %2$s.\n%3$s</string>
+    <string name="backup_replace">Replace everything</string>
+    <string name="backup_replace_body">Deletes current data on this phone and restores the backup exactly.</string>
+    <string name="backup_merge">Merge</string>
+    <string name="backup_merge_body">Keeps current data and adds everything from the backup as new entries.</string>
+    <string name="backup_restore_done">Restored: %1$s</string>
+    <string name="backup_failed">Couldn\'t complete: %1$s</string>
+    <string name="backup_working">Working…</string>
+    <string name="backup_ics_title">Export calendar</string>
+    <string name="backup_ics_body">Saves your tasks as an .ics file you can import into Google Calendar or another calendar app. Repeating tasks stay repeating.</string>
+    <string name="backup_ics_button">Export .ics file</string>
+    <string name="backup_counts">Plants %1$d · Tanks %2$d · Fish %3$d · Tasks %4$d · Log entries %5$d · Photos %6$d</string>
+
+    <!-- Privacy -->
+    <string name="privacy_title">Privacy &amp; about</string>
+    <string name="privacy_version">Version %1$s</string>
+    <string name="privacy_summary">AquaGrow works fully offline. There is no account, no ads and no analytics or tracking.</string>
+    <string name="privacy_data_title">Your data stays on this phone</string>
+    <string name="privacy_data_body">Plants, tanks, fish, logs, tasks, photos, inventory and expenses are stored only in the app\'s private storage. Nothing is uploaded unless you choose to.</string>
+    <string name="privacy_backup_title">Backups are files you control</string>
+    <string name="privacy_backup_body">A backup is written only to the place you pick in the system file picker. AquaGrow cannot read other files on your phone.</string>
+    <string name="privacy_permissions_title">Permissions</string>
+    <string name="privacy_permissions_body">Camera: only when you take a plant or fish photo. Notifications: for the care reminders you set up. Run at startup: to restore reminders after the phone restarts.</string>
+    <string name="privacy_ai_title">Optional assistant</string>
+    <string name="privacy_ai_body">The assistant is off by default. If you turn it on, only the question you type, and any plant, tank or photo you choose to attach, is sent to the assistant server. You can turn it off at any time.</string>
+    <string name="privacy_estimates_title">About the advice</string>
+    <string name="privacy_estimates_body">Harvest dates, growth stages and care tips are general estimates. Water test alerts compare readings with ranges; they do not diagnose fish illness. When in doubt, ask a local expert or vet.</string>
+    <string name="privacy_delete_title">Deleting your data</string>
+    <string name="privacy_delete_body">Uninstalling AquaGrow, or clearing its storage in system settings, deletes all data from this phone. Backup files you saved elsewhere are not touched.</string>
+    <string name="privacy_licenses_title">Open-source</string>
+    <string name="privacy_licenses_body">Fonts Outfit and DM Sans (SIL Open Font License). Material Symbols (Apache 2.0). Built with Android Jetpack libraries (Apache 2.0).</string>
+    <plurals name="analytics_upcoming_count">
+        <item quantity="one">%1$d task scheduled</item>
+        <item quantity="other">%1$d tasks scheduled</item>
+    </plurals>
+    <plurals name="backup_ics_done">
+        <item quantity="one">Exported %1$d task.</item>
+        <item quantity="other">Exported %1$d tasks.</item>
+    </plurals>
+</resources>

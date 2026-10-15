@@ -1,0 +1,73 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Welcome -->
+    <string name="welcome_title">Welcome to AquaGrow</string>
+    <string name="welcome_eyebrow">Grow your plants. Care for your fish.</string>
+    <string name="welcome_tagline">Your personal garden &amp; aquarium companion. Track care, get reminders and watch everything grow, all on your phone, no account needed.</string>
+    <string name="welcome_get_started">Get Started</string>
+    <string name="welcome_restore">Restore from a backup</string>
+    <string name="welcome_illustration">A sprout and a fish in overlapping circles</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_progress">Step %1$d of %2$d</string>
+    <string name="onboarding_title">What would you like to manage?</string>
+    <string name="onboarding_subtitle">Pick one or both. We\'ll set up your home screen around your choice.</string>
+    <string name="onboarding_note">You can turn either module on or off later in Profile → Modules. Nothing is lost when a module is hidden.</string>
+    <string name="onboarding_garden_title">Garden</string>
+    <string name="onboarding_garden_body">Terrace plants, watering, fertilizer and harvests</string>
+    <string name="onboarding_aquarium_title">Aquarium</string>
+    <string name="onboarding_aquarium_body">Tanks, fish, feeding and water quality</string>
+    <string name="onboarding_both_title">Both</string>
+    <string name="onboarding_both_body">One app for your garden and your aquariums</string>
+
+    <!-- Home -->
+    <string name="home_greeting_morning">Good morning</string>
+    <string name="home_greeting_afternoon">Good afternoon</string>
+    <string name="home_greeting_evening">Good evening</string>
+    <string name="home_notifications">Reminder history</string>
+    <string name="home_stat_plants">Plants</string>
+    <string name="home_stat_fish">Fish</string>
+    <string name="home_today">Today</string>
+    <string name="home_today_all_done">All caught up for today.</string>
+    <string name="home_today_none">Nothing scheduled for today.</string>
+    <string name="home_week_title">This week\'s care</string>
+    <string name="home_week_none">No tasks scheduled this week yet.</string>
+    <string name="home_week_chart_description">Bar chart of tasks done each day this week. %1$s</string>
+    <!-- "N of M done" is correct for every number. -->
+    <string name="home_week_day_description" tools:ignore="PluralsCandidate">%1$s: %2$d of %3$d done.</string>
+    <string name="home_quick_add">Quick add</string>
+    <string name="quick_add_plant">Add plant</string>
+    <string name="quick_add_fish">Add fish</string>
+    <string name="quick_add_task">Add task</string>
+    <string name="quick_log_watering">Log watering</string>
+    <string name="quick_log_feeding">Log feeding</string>
+    <string name="quick_add_aquarium">Add aquarium</string>
+
+    <!-- Home empty state -->
+    <string name="home_empty_title">Nothing to care for yet</string>
+    <string name="home_empty_body">Add your first plant or aquarium and AquaGrow will start planning watering, feeding and maintenance reminders for you.</string>
+    <string name="home_hello">Hello there</string>
+    <string name="home_calendar_link">Calendar</string>
+    <string name="home_check_soil">check soil first</string>
+    <string name="home_module_garden">Garden</string>
+    <string name="home_module_aquarium">Aquarium</string>
+    <plurals name="home_overdue_by">
+        <item quantity="one">overdue by %1$d day</item>
+        <item quantity="other">overdue by %1$d days</item>
+    </plurals>
+    <!-- "N of M done" is correct for every number. -->
+    <string name="home_week_done" tools:ignore="PluralsCandidate">%1$d of %2$d done</string>
+    <plurals name="home_growing">
+        <item quantity="one">%1$d actively growing</item>
+        <item quantity="other">%1$d actively growing</item>
+    </plurals>
+    <plurals name="home_in_aquariums">
+        <item quantity="one">in %1$d aquarium</item>
+        <item quantity="other">in %1$d aquariums</item>
+    </plurals>
+    <string name="home_empty_body_garden">Add your first plant and AquaGrow will keep track of watering, fertilizer and growth.</string>
+    <string name="home_empty_body_aquarium">Add your first aquarium and AquaGrow will keep track of feeding, water tests and maintenance.</string>
+    <string name="home_empty_add_plant">Add a plant</string>
+    <string name="home_empty_add_aquarium">Add an aquarium</string>
+    <string name="home_tip_title">Tip</string>
+    <string name="home_tip_body">Tip: start with just one or two plants. You can add photos and growth notes as they grow.</string>
+</resources>

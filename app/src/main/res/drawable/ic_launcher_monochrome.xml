@@ -1,0 +1,11 @@
+<!-- Themed icon (Android 13+): drop silhouette with the sprout and fish cut out. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+  <path android:fillColor="#FFFFFF" android:fillType="evenOdd"
+      android:pathData="M54,24C54,24 34,46 34,63.5A20,20 0 0,0 74,63.5C74,46 54,24 54,24Z
+      M52.4,45H55.6V58.5H52.4Z
+      M53.5,49.5C53.5,44 49.5,40.5 43.5,40.5C43.5,46 47.5,49.5 53.5,49.5Z
+      M54.5,46.5C54.5,41 58.5,38 63.5,38C63.5,43.5 59.5,46.5 54.5,46.5Z
+      M49,71C51.5,67.5 55,66.5 58,66.5C61.5,66.5 64,68.5 65,71C64,73.5 61.5,75.5 58,75.5C55,75.5 51.5,74.5 49,71Z
+      M48.5,71L43.5,67V75Z"/>
+</vector>

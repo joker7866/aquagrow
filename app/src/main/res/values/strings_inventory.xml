@@ -1,0 +1,15 @@
+<resources>
+    <string name="inv_cat_seeds">Seeds</string>
+    <string name="inv_cat_pots">Pots</string>
+    <string name="inv_cat_grow_bags">Grow bags</string>
+    <string name="inv_cat_soil">Soil &amp; media</string>
+    <string name="inv_cat_fertilizer">Fertilizers</string>
+    <string name="inv_cat_tools">Tools</string>
+    <string name="inv_cat_pest">Pest control</string>
+    <string name="inv_cat_fish_food">Fish food</string>
+    <string name="inv_cat_conditioner">Water conditioner</string>
+    <string name="inv_cat_filter_media">Filters &amp; media</string>
+    <string name="inv_cat_test_kit">Test kits</string>
+    <string name="inv_cat_equipment">Equipment</string>
+    <string name="inv_cat_other">Other</string>
+</resources>

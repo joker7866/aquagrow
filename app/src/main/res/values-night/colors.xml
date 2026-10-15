@@ -1,0 +1,5 @@
+<resources>
+    <!-- Matches DarkPageBackground in ui/theme/Color.kt so dark mode never flashes light. -->
+    <color name="page_background">#121614</color>
+    <color name="icon_background">#1B201D</color>
+</resources>
