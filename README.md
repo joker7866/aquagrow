@@ -204,7 +204,7 @@ See [PRIVACY.md](PRIVACY.md). In short: data stays on the device, and only the o
 
 ## 👨‍💻 Author
 
-**Kishore** — Mechanical engineer turned software developer, building practical apps for everyday problems in Tamil Nadu and India.
+**Kishore** — B.Tech Computer Science · Software developer building practical apps for everyday problems in Tamil Nadu and India.
 
 - GitHub: [@joker7866](https://github.com/joker7866)
 
